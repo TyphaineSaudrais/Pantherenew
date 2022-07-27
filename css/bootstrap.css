@@ -1437,7 +1437,8 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
+    margin: auto;
 }
 
 .img-rounded {
@@ -4248,9 +4249,6 @@ input[type=submit].btn-block {
     opacity: 1
 }
 
-.collapse {
-    display: none
-}
 
 .collapse.in {
     display: block
@@ -7509,6 +7507,7 @@ button.close {
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img {
     line-height: 1
+    margin:
 }
 
 @media all and (transform-3d),
